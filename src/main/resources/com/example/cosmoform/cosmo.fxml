@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="welcomeText" layoutX="161.0" layoutY="32.0" prefHeight="36.0" prefWidth="263.0" text="  Welcome to Cosmotology" textFill="#f21bd1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="checkIn" layoutX="104.0" layoutY="319.0" mnemonicParsing="false" text="Checking-in" />
+      <Button fx:id="checkOut" layoutX="399.0" layoutY="319.0" mnemonicParsing="false" text="Checking-out" />
+      <Label fx:id="descriptionCosmo" layoutX="33.0" layoutY="163.0" prefHeight="175.0" prefWidth="534.0" text="Welcome to the Worcester Technical High School Student Salon &amp; Spa, the premier training ground for the beauty industry's rising stars. We offer a full menu of professional hair, nail, and waxing services delivered by dedicated students under the close supervision of our licensed educator team. By booking with us, you aren’t just getting a high-quality service at a budget-friendly price, you’re providing the essential hands-on experience our students need to become the next generation of industry leaders." textAlignment="CENTER" wrapText="true" />
+      <ImageView fx:id="imageFirst" fitHeight="102.0" fitWidth="289.0" layoutX="148.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</Pane>
