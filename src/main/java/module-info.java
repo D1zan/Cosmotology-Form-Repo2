@@ -1,6 +1,7 @@
 module com.example.cosmoform {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.sql;
 
 
     opens com.example.cosmoform to javafx.fxml;
