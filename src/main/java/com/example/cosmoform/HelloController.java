@@ -75,6 +75,7 @@ public class HelloController {
     @FXML
     public void goHome() {
         // Hide consent page
+        //and show it
         consentPage.setVisible(false);
         consentPage.setManaged(false);
 
