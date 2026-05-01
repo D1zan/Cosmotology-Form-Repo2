@@ -10,10 +10,10 @@
 
 
 
-   <VBox fx:id="servicesPage" alignment="CENTER" spacing="10" style="-fx-background-color: pink;">
+   <VBox fx:id="servicesPage" alignment="CENTER" spacing="10" style="-fx-background-color: pink;" visible="false">
       <Pane prefHeight="362.0" prefWidth="600.0">
          <children>
-            <Label fx:id="schoolName" layoutX="11.0" layoutY="6.0" text="Worcester Technical High School" />
+            <Label fx:id="schoolName" layoutX="11.0" layoutY="6.0" prefWidth="174.0" text="Worcester Technical High School" />
             <Label fx:id="bruh1" layoutX="11.0" layoutY="23.0" text="1 Officer Manny Familia Way" />
             <Label fx:id="bruh2" layoutX="14.0" layoutY="40.0" text="Worcester, MA 01605" />
             <VBox alignment="CENTER_LEFT" layoutX="217.0" layoutY="125.0" maxWidth="200" prefHeight="244.0" prefWidth="200.0" spacing="8">
@@ -99,12 +99,12 @@
             </children></Pane>
       </children>
    </VBox>
-   <VBox fx:id="feedbackPage" prefHeight="440.0" prefWidth="600.0" visible="false">
+   <VBox fx:id="feedbackPage" prefHeight="440.0" prefWidth="600.0">
       <children>
-         <Pane prefHeight="428.0" prefWidth="616.0">
+         <Pane prefHeight="428.0" prefWidth="616.0" style="-fx-background-color: pink;">
             <children>
                <Label layoutX="27.0" layoutY="17.0" text="Client Name: " />
-               <Label layoutX="106.0" layoutY="17.0" prefHeight="17.0" prefWidth="222.0" text="Placeholder for client's name" />
+               <Label fx:id="ClientNameInFeedback" layoutX="106.0" layoutY="17.0" prefHeight="17.0" prefWidth="222.0" text="Placeholder for client's name" />
                <Label layoutX="217.0" layoutY="34.0" text="Client Feedback ">
                   <font>
                      <Font size="24.0" />
@@ -166,7 +166,7 @@
                <Line endX="374.5" endY="-6.0" layoutX="181.0" layoutY="250.0" startX="-141.5" startY="-6.0" />
                <Line endX="374.5" endY="-6.0" layoutX="180.0" layoutY="323.0" startX="-141.5" startY="-6.0" />
                <Line endX="374.5" endY="-6.0" layoutX="180.0" layoutY="206.0" startX="-141.5" startY="-6.0" />
-               <Button layoutX="520.0" layoutY="13.0" mnemonicParsing="false" onAction="#goHome" text="Check-out" textFill="#242524" />
+               <Button layoutX="520.0" layoutY="13.0" mnemonicParsing="false" onAction="#goHome" style="-fx-background-color: pink; -fx-border-color: coral;" text="Check-out" textFill="#242524" />
             </children></Pane>
       </children>
    </VBox>
