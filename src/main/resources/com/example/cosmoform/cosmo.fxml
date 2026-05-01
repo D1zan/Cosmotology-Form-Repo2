@@ -52,31 +52,31 @@
       <Pane prefHeight="416.0" prefWidth="600.0">
          <children>
       
-            <Label layoutX="133.0" layoutY="219.0" text="Charge for materials used only, no charge for services." textAlignment="CENTER">
+            <Label layoutX="126.0" layoutY="180.0" text="Charge for materials used only, no charge for services." textAlignment="CENTER">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
       
-            <Label fx:id="disclaimerAll" layoutX="69.0" layoutY="94.0" text="All Work In This School Is Done By Students">
+            <Label fx:id="disclaimerAll" layoutX="62.0" layoutY="61.0" text="All Work In This School Is Done By Students">
                <font>
                   <Font size="24.0" />
                </font>
             </Label>
       
-            <Label layoutX="50.0" layoutY="140.0" maxWidth="500" text="I recognize that students are performing the work done in this school and will be monitored by a licensed instructor. Therefore your patience and support is appreciated." textAlignment="CENTER" wrapText="true">
+            <Label layoutX="50.0" layoutY="107.0" maxWidth="500" text="I recognize that students are performing the work done in this school and will be monitored by a licensed instructor. Therefore your patience and support is appreciated." textAlignment="CENTER" wrapText="true">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
       
             <Button layoutX="30.0" layoutY="26.0" onAction="#goHome" text="Back" />
-            <Label layoutX="85.0" layoutY="299.0" text="Client Print Name:" />
-            <TextField fx:id="clientName" layoutX="190.0" layoutY="295.0" prefHeight="25.0" prefWidth="238.0" />
-            <Label layoutX="50.0" layoutY="345.0" text="Client Print Signature:" />
-            <TextField fx:id="clientSignature" layoutX="171.0" layoutY="341.0" />
-            <TextField fx:id="date" layoutX="396.0" layoutY="341.0" prefHeight="25.0" prefWidth="80.0" />
-            <Label layoutX="361.0" layoutY="345.0" text="Date:" />
+            <Label layoutX="78.0" layoutY="249.0" text="Client Print Name:" />
+            <TextField fx:id="clientName" layoutX="181.0" layoutY="245.0" prefHeight="25.0" prefWidth="238.0" />
+            <Label layoutX="50.0" layoutY="299.0" text="Client Print Signature:" />
+            <TextField fx:id="clientSignature" layoutX="174.0" layoutY="295.0" />
+            <TextField fx:id="date" layoutX="397.0" layoutY="295.0" prefHeight="25.0" prefWidth="80.0" />
+            <Label layoutX="362.0" layoutY="299.0" text="Date:" />
             <Button layoutX="524.0" layoutY="26.0" mnemonicParsing="false" onAction="#goToServices" text="Next" />
          </children>
       </Pane>
